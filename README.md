@@ -30,3 +30,5 @@ Raksha is a next-generation healthcare application that integrates **AI + Blockc
 - **Backend:** Flask (Python)  
 - **AI:** Google Gemini integration  
 - **Blockchain:** Secure data storage for health records  
+
+📌 Note: This project includes a NOTICE file with additional citation requirements.
