@@ -1,0 +1,72 @@
+.medical-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f2f7fb;
+  }
+  
+  .form-card {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .medical-form input,
+  .medical-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .medical-form textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .file-upload {
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+  }
+  
+  .file-upload input {
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #2d89ff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #1d6de0;
+  }
+  
+  .back-btn {
+    display: block;
+    margin: 20px auto 0;
+    background: none;
+    border: none;
+    color: #2d89ff;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: underline;
+  }
+  

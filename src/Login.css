@@ -1,0 +1,67 @@
+.align{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    height: 100vh;
+    font-family: 'Orbitron', sans-serif; /* Futuristic font */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-page {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    width: 350px;
+    max-width: 90%;
+  }
+  
+  .login-page h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #ffffff;
+    letter-spacing: 2px;
+  }
+  
+  .login-page video {
+    border-radius: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 0 15px #00f2fe, 0 0 30px #4facfe, 0 0 45px #00f2fe;
+  }
+  
+  .login-page button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
+    color: #0f2027;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .login-page button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 242, 254, 0.6);
+  }
+  
+  .login-page button:disabled {
+    background: linear-gradient(90deg, #555 0%, #777 100%);
+    cursor: not-allowed;
+  }
+  
+  .login-page p {
+    margin-bottom: 15px;
+    color: #ff4b5c;
+    font-weight: 500;
+  }
+  

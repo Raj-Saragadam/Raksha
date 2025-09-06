@@ -1,0 +1,45 @@
+.chat-history-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .chat-history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .chat-history-table th,
+  .chat-history-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .chat-history-table th {
+    background-color: #f8f9fa;
+  }
+  
+  .clickable {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  button {
+    margin-left: 5px;
+    cursor: pointer;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #efefef;
+  }
+  
